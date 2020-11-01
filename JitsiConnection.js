@@ -18,7 +18,6 @@ import XMPP from './modules/xmpp/xmpp';
  * @constructor
  */
 export default function JitsiConnection(appID, token, options) {
-    console.debug(">>>>>>>>>>>>> Hello World")
     this.appID = appID;
     this.token = token;
     this.options = options;
